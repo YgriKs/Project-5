@@ -50,7 +50,7 @@ class Program {
 								  Console.WriteLine("Старшая");
 							  break;
 				default:
-				Console.WriteLine("Число не соответствует дню недели");
+				Console.WriteLine("Такого класса нет");
 					break;
 						  }
     }
