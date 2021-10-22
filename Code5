@@ -5,50 +5,27 @@ class Program {
 		Console.WriteLine("Введите число которое соответствует дню недели");
 		int a = Convert.ToInt32(Console.ReadLine());
 			switch(a)
-						  {
-							  case 1:
-								   Console.WriteLine("Младший");
-							  break;
-						   
-							  case 2:
-								  Console.WriteLine("Младший");
-							  break;
+				{
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+						Console.WriteLine("Младший класс");
+					break;
 						  
-							  case 3:
-								  Console.WriteLine("Младший");
-							  break;
-						  
-							  case 4:
-								  Console.WriteLine("Младший");
-							  break;
-						  
-							  case 5:
-								  Console.WriteLine("Средняя");
-							  break;
-						  
-							  case 6:
-								  Console.WriteLine("Средняя");
-							  break;
-						  
-							  case 7:
-								  Console.WriteLine("Средняя");
-							  break;
+					case 5:
+					case 6:
+					case 7:
+					case 8:
+					case 9:
+						Console.WriteLine("Средний класс");
+					break;
 
-							  case 8:
-								  Console.WriteLine("Средняя");
-							  break;
+					case 10:
+					case 11:
+						Console.WriteLine("Старший класс");
+					break;
 
-							  case 9:
-								  Console.WriteLine("Средняя");
-							  break;
-
-							  case 10:
-								  Console.WriteLine("Старшая");
-							  break;
-													
-							  case 11:
-								  Console.WriteLine("Старшая");
-							  break;
 				default:
 				Console.WriteLine("Такого класса нет");
 					break;
